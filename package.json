@@ -19,5 +19,8 @@
     "simplesets": "^1.2.0",
     "slack-node": "^0.1.8",
     "ws": "^2.0.2"
+  },
+  "engines": {
+    "node": "6.9.4"
   }
 }
