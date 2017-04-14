@@ -11,7 +11,8 @@ module.exports = {
   },
   db: {
     provider: "mongodb",
-    connection: "mongodb://localhost:27017/mc_todo",
+    //connection: "mongodb://localhost:27017/mc_todo",
+    connection: "mongodb://skillmatrixadmin:skillmatrixadmin@ds058739.mlab.com:58739/skillmatrix",
   },
   ws: {
     url: process.env.WS_URL

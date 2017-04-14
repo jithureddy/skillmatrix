@@ -8,7 +8,7 @@ module.exports = {
 	},
 	db: {
     	provider: "mongodb",
-    	connection: "mongodb://localhost:27017/mc_prod",
+    	connection: "mongodb://skillmatrixadmin:skillmatrixadmin@ds058739.mlab.com:58739/skillmatrix",
     	workItemsCollection: 'work_items',
     	containersCollection: 'containers'
   	},
