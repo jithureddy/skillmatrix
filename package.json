@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "ProArch",
   "dependencies": {
-    "Q": "1.0.0",
     "array-intersection": "^0.1.2",
     "async": "^2.1.4",
     "botbuilder": "^3.5.4",
