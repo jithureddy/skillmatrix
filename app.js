@@ -22,7 +22,6 @@ var sets = require('simplesets');
 //code module import start
 
 var websocketobj = require('./code_modules/websocket.js');
-var todayupdate = require('./code_modules/todayupdate.js');
 var sendgreeting = require('./code_modules/sendgreeting.js');
 var listfolders = require('./code_modules/listfolders.js');
 //code module import end
