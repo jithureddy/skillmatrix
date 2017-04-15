@@ -5,6 +5,7 @@ sendGreeting:function(conf,session) {
 	greetingIndex = Math.floor(Math.random() * greetings.length);
 	randomGreeting = greetings[greetingIndex];
 	console.log(session.userData);
-	session.send(randomGreeting + ' ' +session.userData.personalDetails.firstName +'!');
+	session.send(randomGreeting);
+	//session.send(randomGreeting + ' ' +session.userData.personalDetails.firstName +'!');
 }
 };
