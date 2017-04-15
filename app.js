@@ -113,7 +113,7 @@ bot.dialog('/listFolders', [
     }
 ]);
 
-bot.dialog('/greetingDialog',[
+bot.dialog('/greetings',[
 	function(session, args) {
 		sendgreeting.sendGreeting(conf,session);
 	}
