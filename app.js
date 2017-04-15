@@ -123,13 +123,14 @@ bot.dialog('/greetings',[
 dialog.matches('welcomeDialog', [
 	function (session, args, next) {
 		//console.log("session.message.address==>",session.message.address);
-		if (!checkNestedObj(session.userData, 'personalDetails')) {
-			console.log("in personal");
-			session.beginDialog('/setUserData');
-		}
-		else {
-			sendgreeting.sendGreeting(conf,session);
-		}
+		// if (!checkNestedObj(session.userData, 'personalDetails')) {
+		// 	console.log("in personal");
+		// 	session.beginDialog('/setUserData');
+		// }
+		// else {
+		// 	sendgreeting.sendGreeting(conf,session);
+		// }
+        sendgreeting.sendGreeting(conf,session);
 		//console.log(session.userData);
     }
     ]);
