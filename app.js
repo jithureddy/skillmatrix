@@ -75,7 +75,7 @@ var connector = new builder.ChatConnector({
 
 var bot = new builder.UniversalBot(connector);
 
-//server.post('/api/messages', connector.listen());
+server.post('/api/messages', connector.listen());
 
 //var model='https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/8273fa69-37be-4905-bdea-8b0d8797bebf?subscription-key=451cdba1d539430d8b754fe3c922389f&verbose=true';
 
